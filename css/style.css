@@ -1,0 +1,21 @@
+* {
+  box-sizing: border-box;
+}
+
+.box {
+  display: block;
+  background-color: green;
+  width: 200px;
+  height: 200px;
+  border: black solid 2px;
+  position:relative;
+}
+
+.box p {
+  background-color: purple;
+  width: 100%;
+  height: 20px;
+  display: none;
+}
+
+
