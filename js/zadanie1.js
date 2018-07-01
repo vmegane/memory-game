@@ -1,12 +1,11 @@
 function joinArrays(x,y,z) {
-    let result = [];
-
-    return result;
+    const result = [...x, ...y, ...z];
+    return result.sort( (a,b) => a - b );
 }
 
-var x = [2,3];
-var y = [0,1];
-var z = [4,5];
+const x = [21,3];
+const y = [0,12];
+const z = [42,5, 2];
 
-joinArrays(x,y,z);
+console.log(joinArrays(x,y,z));
 
