@@ -3,7 +3,7 @@ const path = require('path')
 module.exports = {
   mode: "development",
   watch: true,
-  entry: './js/zadanie5.js',
+  entry: './js/app.js',
   output: {
     path: path.resolve(__dirname, 'js'),
     filename: 'out.js'

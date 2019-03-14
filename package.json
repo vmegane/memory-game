@@ -1,7 +1,7 @@
 {
-  "name": "exam4",
+  "name": "memory-game",
   "version": "1.0.0",
-  "description": "<img alt=\"Logo\" src=\"http://coderslab.pl/svg/logo-coderslab.svg\" width=\"400\">",
+  "description": "",
   "main": "webpack.config.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
